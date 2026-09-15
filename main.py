@@ -21,7 +21,8 @@ try:
         Args:
             message (telebot.types.Message): The message object.
         """
-        bot.reply_to(message, "Hello! I'm a simple Telegram bot.")
+        bot.reply_to(message, "Hello, welcome to ACK_Trading. This is your first step
+        to joining the VIP group. All you need to do now is follow the steps to make your deposit with our broker and then you will be added to the VIP.")
 
     @bot.message_handler(func=lambda msg: True)
     def echo_all(message):
